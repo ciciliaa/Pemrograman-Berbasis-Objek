@@ -11,7 +11,7 @@ package projectluasbangunkompleks;
  */
 public class Project1 {
     public static void main(String[] args){
-       Lingkaran l = new Lingkaran();
+        Lingkaran l = new Lingkaran();
        l.r = 21;
        int lingkaran = l.hitungLuas();
        
@@ -21,7 +21,7 @@ public class Project1 {
        
        double HasilLuas = (lingkaran * 2) + persegi;
        System.out.println("Hasil luas Bangun :" + HasilLuas);
-       
+        
        
     }
 }
