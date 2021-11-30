@@ -24,20 +24,20 @@ public class RentalConsoleUpgrade {
         m.addMembership(new DataMembership("M002", "Mr.Y", "Gold"));
         m.addMembership(new DataMembership("M003", "Mr.Z", "Platinum"));
 
-        DataMembership data = m.inputMembership();
-        switch(data.Jenis){
+        DataMembership member = m.inputMembership();
+        switch(member.Jenis){
             case "Silver":
-                Silver silver = new Silver(data);
+                Silver silver = new Silver(member);
                 silver.hitungBiaya();
                 silver.output();
                 break;
             case "Gold":
-                Gold gold = new Gold(data);
+                Gold gold = new Gold(member);
                 gold.hitungBiaya();
                 gold.output();
                 break;
             case "Platinum":
-                Platinum platinum = new Platinum(data);
+                Platinum platinum = new Platinum(member);
                 platinum.hitungBiaya();
                 platinum.output();
                 break;
