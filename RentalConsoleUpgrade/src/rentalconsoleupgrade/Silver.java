@@ -33,4 +33,5 @@ public class Silver extends Membership{
         System.out.println("----------------------------------");
         System.out.println("Total Sewa      = " + this.totalSewa);
         System.out.println("Jumlah Poin     = " + this.poin);
+    }
 }
